@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.section {
+  padding: 10px 0;
+  margin: 50px 40px 50px 60px;
+}
+
+.container {
+  max-width: 1140px;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.block {
+  display: flex;
+  border: 10px solid white;
+  width: calc((1140px - 30px) / 2);
+  height: fit-content;
+  margin: 0 auto;
+  background: linear-gradient(257.26deg, #008BF0 -13.2%, #D943C9 130.95%);
+  justify-content: space-between;
+  flex-flow: row nowrap;
+}
+
+.box-info {
+  margin: 10px;
+  font-size: 20px;
+  font-family: 'Hind Siliguri', sans-serif;
+  color: aliceblue;
+}
+
+.box-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 10px;
+  padding-bottom: 0px;
+
+}
+
+.box-title {
+  font-weight: 600;
+  padding-right: 180px;
+}
+
+.box-cover {
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  margin: 90px 50px 30px 30px;
+  padding-left: 260px;
+  padding-top: 0px;
+  margin-top: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.button {
+  padding: 20px;
+  margin-bottom: 70px;
+  padding-bottom: 40px;
+}
